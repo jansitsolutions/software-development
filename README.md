@@ -1,4 +1,4 @@
-# Jans IT-Solutions – IT-Dienstleistungen & Softwareentwicklung
+# IT-Dienstleistungen & Softwareentwicklung - Jans IT-Solutions
 
 **Maßgeschneiderte IT-Lösungen für Ihren Wettbewerbsvorteil**
 
