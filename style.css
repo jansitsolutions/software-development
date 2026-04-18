@@ -1,3 +1,99 @@
+.city-list-inline {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.city-list-inline li {
+    display: inline;
+    margin: 0;
+}
+/* Dropdown Menü für Navigation */
+.main-nav details {
+    display: inline-block;
+    position: relative;
+}
+.main-nav summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: .4rem 1.1rem;
+    border-radius: 6px;
+    background: var(--grad);
+    color: #fff;
+    outline: none;
+    border: none;
+    user-select: none;
+}
+.main-nav[open] summary, .main-nav summary:focus {
+    outline: 2px solid var(--accent);
+}
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 0 .5rem 0;
+}
+.main-nav details[open] ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 2.2rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(60,60,90,0.07);
+    min-width: 220px;
+    z-index: 1000;
+}
+.main-nav ul li {
+    margin: 0;
+}
+.main-nav ul li a {
+    display: block;
+    padding: .6rem 1.2rem;
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 0;
+}
+.main-nav ul li a:hover {
+    background: var(--light);
+    color: var(--accent);
+}
+
+/* Städte-Links unter CTA-Box */
+.city-links {
+    margin-top: 2rem;
+    background: #fff;
+    color: var(--primary);
+    border-radius: 8px;
+    padding: 1.2rem 1.2rem 1rem 1.2rem;
+    box-shadow: 0 2px 12px rgba(60,60,90,0.06);
+    text-align: left;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.city-links h3 {
+    margin-top: 0;
+    font-size: 1.05rem;
+    color: var(--accent);
+    margin-bottom: .7rem;
+}
+.city-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.city-links li {
+    margin-bottom: .3rem;
+}
+.city-links a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.city-links a:hover {
+    color: var(--accent);
+}
 *,*::before,*::after{box-sizing:border-box}
     :root{--primary:#374151;--accent:#3b82f6;--dark:#1f2937;--light:#f9fafb;--border:#e5e7eb;--grad:linear-gradient(135deg,#667eea 0%,#764ba2 100%)}
     body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.7;color:var(--dark);margin:0;background:#fff}

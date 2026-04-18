@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jansitsolutions.github.io/jans-it-solutions/sitemap.xml
+Sitemap: https://jansitsolutions.github.io/software-development/sitemap.xml
